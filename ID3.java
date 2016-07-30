@@ -10,7 +10,8 @@ import java.util.Map;
 public class ID3 {
 
 	private static Tree tree;
-
+	
+	// choose first Root
 	public static Tree compute(List<AttributeSet> set, List<String> classList) {
 		List<Double> gains = new ArrayList<Double>();
 		Map<Double, AttributeSet> map = new HashMap<Double, AttributeSet>();
